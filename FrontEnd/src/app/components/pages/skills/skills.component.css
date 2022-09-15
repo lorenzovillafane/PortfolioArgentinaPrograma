@@ -1,0 +1,63 @@
+.row{display: flex;
+    padding: 20px;
+    font-family: 'Unlearned BRK', sans-serif;
+    font-size:30px;
+    text-align: center;  
+   margin-left: 35px;
+ }
+h1{font-family: 'Outline Pixel7 Solid', sans-serif;
+  color:white;
+  text-shadow: -3px -3px 3px black, 3px -3px 3px black, -3px 3px 3px black, 3px 3px 3px black;
+}
+
+.frontend{    font-family: 'Outline Pixel7 Solid', sans-serif;
+  margin: 25px;
+    padding: 5px;}
+
+     .backend{     font-family: 'Outline Pixel7 Solid', sans-serif;
+    margin: 25px;
+    padding: 5px;}
+    
+    .gamedev{     font-family: 'Outline Pixel7 Solid', sans-serif;
+      
+    margin: 25px;
+    padding: 5px;}
+
+  .Diseño{     font-family: 'Outline Pixel7 Solid', sans-serif;
+margin: 25px;
+padding: 5px;}
+
+
+
+
+
+@media (max-width:576px){
+    .row{display: flex; 
+      font-family: 'Unlearned BRK', sans-serif;
+        font-size:20px;
+        text-align: center;  
+       flex-direction: column;
+       justify-content: center;
+align-items: center;
+margin-right: 30px;
+
+      
+       
+     }
+     .frontend{ 
+        margin: 5px;
+        padding: 5px;}
+    
+         .backend{ 
+        margin: 5px;
+        padding: 5px;}
+        
+        .gamedev{ 
+        margin: 5px;
+        padding: 5px;}
+        h1{ font-size:25px}
+       img{ height: 25px;}
+       
+ }
+ 
+  

@@ -1,0 +1,23 @@
+#logoAP{width: 150px;}
+#tw{width: 50px;}
+#ig{width: 50px;}
+#tel{width: 50px;}
+#wpp{width: 50px;}
+#fb{width: 50px;}
+
+button{background-color: transparent;
+border: none;
+border-radius:10px;
+padding: 0%;
+}
+.headersocial{display: flex;
+justify-content: space-between;
+align-items: center;
+padding: 0%;
+
+}
+@media (max-width:766px){
+    .headersocial{flex-direction: column;}
+    .redes{display:flex;
+    align-items: center;}
+    .login{margin-top:25px ;}}

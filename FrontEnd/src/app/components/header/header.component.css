@@ -1,0 +1,10 @@
+div{background-image: url("src/assets/sky header.gif");
+padding: 0%;
+margin: 0%;
+height: 100;}
+
+@media (max-width:766px){
+  div{background-image:none;
+    padding: 0%;
+    margin: 0%;
+    height: 100;}}

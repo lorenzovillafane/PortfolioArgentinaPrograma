@@ -1,0 +1,28 @@
+.row{
+    background-image: url("src/assets/FOOTER GRASS.png");
+    height: 100px;
+    justify-content: center;
+    margin-top: 10%;
+}
+footer{font-family: 'Outline Pixel7 Solid', sans-serif;
+    color:white;
+    text-shadow: -3px -3px 3px black, 3px -3px 3px black, -3px 3px 3px black, 3px 3px 3px black;
+    margin-top: 20px;
+  
+    font-size: 14px;
+    display:flex;
+    flex-direction: column;
+    text-align: center;  
+}
+@media (max-width:415px){
+    footer{font-family: 'Outline Pixel7 Solid', sans-serif;
+        color:white;
+        text-shadow: -3px -3px 3px black, 3px -3px 3px black, -3px 3px 3px black, 3px 3px 3px black;
+        margin-top: 20px;
+        
+        font-size: 10px;
+        display:flex;
+        flex-direction: column;
+        text-align: center;  
+    
+ }}
