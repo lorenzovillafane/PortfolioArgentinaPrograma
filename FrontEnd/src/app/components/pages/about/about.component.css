@@ -6,9 +6,12 @@ text-align: center;
     display: flex;
     flex-wrap: wrap;
     flex-direction: column;
-    
+    margin: 0%;
 }
-
+.aboutme p{width: 70%;}
+.aboutme{align-items: center;
+display: flex;
+flex-direction: column;;}
 
 p{ font-size:20px;
     color:black;
@@ -52,6 +55,7 @@ h4{font-size:20px;
 
 #javautn{width: 700px;}
 #googleactivate{width:700px;}
+
 
 
 

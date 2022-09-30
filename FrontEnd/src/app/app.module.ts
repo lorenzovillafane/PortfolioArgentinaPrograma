@@ -13,6 +13,8 @@ import { SkillsComponent } from './components/pages/skills/skills.component';
 import { ContactComponent } from './components/pages/contact/contact.component';
 import { ProjectsComponent } from './components/pages/projects/projects.component';
 import { EstudiosComponent } from './components/pages/estudios/estudios.component';
+import{HttpClientModule} from '@angular/common/http';
+import { LoginComponent } from './components/pages/login/login.component';
 
 @NgModule({
   declarations: [
@@ -26,11 +28,13 @@ import { EstudiosComponent } from './components/pages/estudios/estudios.componen
     SkillsComponent,
     ContactComponent,
     ProjectsComponent,
-    EstudiosComponent
+    EstudiosComponent,
+    LoginComponent
   ],
   imports: [
     BrowserModule,
-    AppRoutingModule
+    AppRoutingModule,
+    HttpClientModule
   ],
   providers: [],
   bootstrap: [AppComponent]

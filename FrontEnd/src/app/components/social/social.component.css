@@ -13,7 +13,7 @@ padding: 0%;
 .headersocial{display: flex;
 justify-content: space-between;
 align-items: center;
-padding: 0%;
+padding-right: 2%;
 
 }
 @media (max-width:766px){
